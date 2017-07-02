@@ -1,0 +1,25 @@
+<div style="text-align:center">
+  <h1>  Welcome to {{title}}!! </h1>
+  <header>
+    <nav>
+      <ul>
+        <li>Home</li>
+        <li>Contact</li>
+        <li>About</li>
+      </ul>
+    </nav>
+  </header>
+  <div class='mainContentLeft'></div>
+  <div class='mainContentRight'>
+    <div class=login>
+      <input type="text" name='uname' #username><br><br>
+      <input type="password" name='pwd' #password>
+      <button (click)="login(username.value,password.value)">Login</button>
+    </div>
+    
+  </div>
+    <li>First time login for Employee!!</li>
+<footer>Made by Tanuj Bohra  Copyright @2017</footer>
+</div>
+
+
